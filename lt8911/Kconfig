@@ -1,0 +1,8 @@
+#
+#  LT8911 driver configuration
+#
+config LT8911_DRIVER 
+       tristate  "Lontium LT8911 driver"    
+       default n
+       help
+           Lontium LT8911 driver for LVDS to EDP
